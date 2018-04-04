@@ -1,8 +1,12 @@
-var animal = 'dog';
-
+animal = 'dog';
 function myAnimal() {
   return animal;
 }
+animal = 'cat';
+function yourAnimal() {
+ return animal;
+}
+
 
 function yourAnimal() {
   // How can we make sure that this function
@@ -20,8 +24,8 @@ function add2(n) {
 }
 
 var funkyFunction = function() {
-  return function() {
-    return "FUNKY!";
+  return funkyfunction()
+    console.log ("FUNKY!");
   }
 
 
